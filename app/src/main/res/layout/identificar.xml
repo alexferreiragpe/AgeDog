@@ -9,7 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,7 +32,8 @@
                 android:text="Como saber a idade do cachorro"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -47,7 +49,8 @@
                 android:text="    Se você adotou um cachorro ou encontrou um na rua, você pode querer saber quantos anos ele tem. Mesmo que você não saiba que dia ele nasceu, é possível estimar a idade do cachorro.
                   \n    Os dentes podem ajudar a indicar a idade de um cão. O grau de crescimento ajuda a determinar quantos anos um cão tem. E o tártaro (dentes amarelados) e destes gastos nos ajudam a estimar a idade de um cão mais velho.
                   \n    Claro que cada cão é um cão e o estado dos seus dentes vai dependes da saúde do cão em geral e de como ele foi tratado durante a sua vida."
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/textView16"
@@ -62,7 +65,8 @@
                 android:text="Dicas pra saber a idade de um cachorro"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -74,7 +78,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="159dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/dentecachorro" />
+                app:srcCompat="@drawable/dentecachorro"
+                tools:ignore="ContentDescription" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -90,7 +95,8 @@
                 \n\n      – olhos opacos, sem vida e às vezes com sinais de catarata;
                 \n      – pelos cinzas ou brancos, principalmente no focinho, indo até o rosto, cabeça e corpo
                 \n      – perda de elasticidade da pele"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/black"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -100,7 +106,8 @@
                 android:layout_marginRight="5dp"
                 android:gravity="right"
                 android:text="\n\nFonte: Tudo sobre Cachorros   Referência: WebMD"
-                android:textSize="7sp" />
+                android:textSize="7sp"
+                tools:ignore="HardcodedText,RtlHardcoded,SmallSp" />
         </LinearLayout>
     </ScrollView>
 
