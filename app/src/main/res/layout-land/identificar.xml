@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CDAA"
+    tools:context="agedog.alex.com.agedog.identificar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Como saber a idade do cachorro"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="    Se você adotou um cachorro ou encontrou um na rua, você pode querer saber quantos anos ele tem. Mesmo que você não saiba que dia ele nasceu, é possível estimar a idade do cachorro.
+                  \n    Os dentes podem ajudar a indicar a idade de um cão. O grau de crescimento ajuda a determinar quantos anos um cão tem. E o tártaro (dentes amarelados) e destes gastos nos ajudam a estimar a idade de um cão mais velho.
+                  \n    Claro que cada cão é um cão e o estado dos seus dentes vai dependes da saúde do cão em geral e de como ele foi tratado durante a sua vida."
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dicas pra saber a idade de um cachorro"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="159dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/dentecachorro" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\n  8 semanas: o cão ainda tem todos os dentes-de-leite
+                \n  7 meses: o cão já tem todos os dentes permanentes, e eles são brancos e limpos
+                \n  1 a 2 anos: os dentes são mais firmes e os dentes de trás podem estar um pouco amarelos
+                \n  3 a 5 anos: todos os dentes podem mostrar sinais de tártaro (amarelado) e alguns podem estar desgastados
+                \n  5 a 10 anos: dentes bem desgastados e tem sinais de doenças
+                \n  10 a 15 anos: os dentes estão bem desgastados e um tártaro mais agressivo pode ser visto. Alguns dentes podem estar faltando.
+                \n\n    O veterinário também pode estimar a idade do cão com base em uma análise física completa e exames que vão avaliar ossos, juntas, músculos e órgãos internos. Em cães idosos, os sinais da idade podem aparecer de várias formas, incluindo:
+                \n\n      – olhos opacos, sem vida e às vezes com sinais de catarata;
+                \n      – pelos cinzas ou brancos, principalmente no focinho, indo até o rosto, cabeça e corpo
+                \n      – perda de elasticidade da pele"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="\n\nFonte: Tudo sobre Cachorros   Referência: WebMD"
+                android:textSize="6sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

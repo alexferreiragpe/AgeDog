@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66CDAA"
+    tools:context="agedog.alex.com.agedog.Calcular">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Como calcular a idade real dos cachorros"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="  Todo mundo sabe que cachorros envelhecem mais rápido que pessoas. Mas a lenda de que 1 ano do cachorro é igual a 7 anos de uma pessoa nada mais é do que lenda. Não é tão simples assim.
+
+    \n\n    Por exemplo, cães amadurecem bem mais rápido que uma criança no primeiro ano de vida. Então, um cão de 1 ano teria aproximadamente 15 anos “humanos”, e não 7.
+
+    \n\n    O tamanho e a raça também influenciam no envelhecimento de um cachorro. Embora cães menores tendam a viver mais tempo que cães de raças grandes, eles amadurecem mais rápido nos primeiros anos de vida. Um cão grande pode amadurecer mais lentamente no início, mas já ser considerado idoso aos 5 anos de idade.
+\n\n    Raças pequenas e “micros” não ficam idosas até mais ou menos 10 anos (Yorkshire, por exemplo). As raças de tamanho médio (Cocker Spaniel, Beagle etc.) estão no meio do caminho em termos de amadurecimento e longevidade. Raças gigantes, como o Dogue de Bordeaux, já são consideradas idosas a partir dos 5 anos.
+
+\n\n     Complementando:
+\n      Hum estudo realizado pela BBC UK, determinou que para calcular a idade de cada cachorro é preciso levar em conta alguns fatores.
+
+\n\n  > Cada raça tem uma velocidade diferente de avançar os anos
+\n  > Cada raça demora um tempo diferente em cada etapa da vida (juventude e vida adulta)
+\n  > Cachorros de raça pequena tem um período curto de juventude e uma longa vida adulta
+\n  > Cachorros de raça grande são o oposto, demoram cerca de dois anos para adquirir totalmente sua forma adulta e
+\n  > então, vivem cerca de mais 4 ou 5 anos
+\n  > Cachorros de raças pequenas vivem mais do que cachorros de raças grandes
+
+\n\n  Na tabela a seguir, considere que:
+
+\n\n      Pequeno = até 9kg
+\n      Médio = 10 a 23kg
+\n      Grande = Mais de 24kg
+
+\n\n    Como calcular a idade real dos cachorros:
+
+
+\n\n    Para calcular a idade real dos cães utilize esses multiplicadores:
+
+\n\n        Para os dois primeiros anos de vida
+\n\n          Cachorros pequenos: \n            multiplicar cada ano por 12,5
+\n\n          Cachorros médios: \n            multiplicar cada ano por 10,5
+\n\n          Cachorros grandes: \n           multiplicar cada ano por 9
+
+\n\n        A partir do terceiro ano de vida, acrescentar mais essa multiplicação:
+\n\n        Cachorros pequenos (multiplicar cada ano por):
+\n\n              Lhasa Apso 4,49 / Shih Tzu 4,78 / Chihuahua 4,87 / Beagle 5,20 / Cocker Spaniel 5,55 / Pug 5,95 / Buldogue Francês 7,65
+\n\n        Cachorros médios (multiplicar cada ano por):
+\n\n              Labrador Retriever 5,74 / Golden Retriever 5,74, Staffordshire Bull Terrier 5,33
+\n\n        Cachorros grandes (multiplicar cada ano por):
+\n\n              Pastor Alemão 7,84 / Boxer 8,90"
+                android:textColor="@android:color/black"
+                android:layout_weight="0.99" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:gravity="right"
+                android:text="Fonte: Tudo sobre Cachorros   Referência: WebMD"
+                android:textSize="7sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
