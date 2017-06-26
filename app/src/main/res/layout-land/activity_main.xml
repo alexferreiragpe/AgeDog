@@ -148,7 +148,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/fundobotao"
-                android:text="Identificar Idade" />
+                android:text="Como Identificar" />
 
         </LinearLayout>
 

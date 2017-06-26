@@ -9,5 +9,6 @@ public class Calcular extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.calcular);
+        setTitle("AgeOfDog Como Calcular");
     }
 }
