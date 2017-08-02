@@ -37,7 +37,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="103dp"
-                android:scaleType="fitXY"
+                android:scaleType="centerCrop"
                 app:srcCompat="@drawable/idade" />
         </LinearLayout>
 
