@@ -64,13 +64,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button calc=(Button)findViewById(R.id.button2);
-        Button ident=(Button)findViewById(R.id.button);
+        Button calc = (Button) findViewById(R.id.button2);
+        Button ident = (Button) findViewById(R.id.button);
 
         calc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent calc=new Intent(MainActivity.this,Calcular.class);
+                Intent calc = new Intent(MainActivity.this, Calcular.class);
                 startActivity(calc);
             }
         });
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         ident.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ident=new Intent(MainActivity.this,identificar.class);
+                Intent ident = new Intent(MainActivity.this, identificar.class);
                 startActivity(ident);
             }
         });

@@ -1,7 +1,7 @@
 package agedog.alex.com.agedog;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class Calcular extends AppCompatActivity {
 
